@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body{
+        width: 700px;
+    }
+    .wrap{
+        border-radius: 10px;
+        background: aliceblue;
+        border: 1px solid #000000;
+    }
+    .row{
+        overflow: hidden;
+    }
+    .col1 {
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+    .col2{
+        padding: 10px 10px;
+    }
+    .col3{
+        padding: 10px 10px;
+    }
+    .col4{
+        padding: 10px 10px;
+    }
+    .col5{
+        padding: 10px 10px;
+    }
+    .col6{
+        padding: 10px 10px;
+    }
+    .col7{
+        padding: 10px 10px;
+    }
+    .col8{
+        padding: 10px 10px;
+    }
+    .box1{
+        width: 200px;
+        margin-left: 40px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box2{
+        width: 200px;
+        margin-left: 43px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box3{
+        width: 200px;
+        margin-left: 72px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box4{
+        width: 200px;
+        margin-left: 55px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box5{
+        width: 200px;
+        margin-left: 33px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box6{
+        width: 200px;
+        margin-left: 10px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+    }
+    .box8{
+        margin-bottom: 10px;
+        height: 30px;
+        width: 150px;
+        margin-left: 260px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        background: gold;
+    }
+</style>
+<body>
+<div class="wrap" >
+    <h2 style="text-align: center ; color: dodgerblue; font-size: 28px">Tạo Tài Khoản</h2>
+    <form action="" method="post" name="dangky">
+        <div class="row">
+            <div class="col1">
+                Họ Tên:
+                <input type="text" value="" name="hoten" placeholder="Nhập họ và tên" class="box1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col2">
+                Địa Chỉ:
+                <input type="text" value="" name="diachi" placeholder="Địa Chỉ" class="box2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col3">
+                ĐT:
+                <input type="text" value="" name="dienthoai" placeholder="nhập sdt" class="box3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                Email:
+                <input type="email" value="" name="email" placeholder="nhập email" class="box4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col6">
+                Mật khẩu:
+                <input type="password"value="" name="mk" placeholder="nhập mật khẩu" class="box5">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col7">
+                Mã Xác nhận:
+                <input type="text" value="" name="maxacnhan" placeholder="Gửi mã xác nhậ tới số điện thoại" class="box6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col5">
+                Giới tính:
+                <input type="radio" value="nam" name="Gioitinh">Nam
+                <input type="radio" value="nu" name="Gioitinh">Nữ
+            </div>
+        </div>
+        <div class="row">
+            <div class="col8">
+                Ngày sinh:
+                <select style="border-radius: 3px">
+                    <option value="">Chọn ngày</option>
+                    <option value="1">Ngày 1</option>
+                    <option value="2">Ngày 2</option>
+                    <option value="3">Ngày 3</option>
+                    <option value="4">Ngày 4</option>
+                    <option value="5">Ngày 5</option>
+                    <option value="6">Ngày 6</option>
+                    <option value="7">Ngày 7</option>
+                    <option value="8">Ngày 8</option>
+                    <option value="9">Ngày 9</option>
+                </select>
+                Tháng Sinh:
+                <select style="border-radius: 3px">
+                    <option value="">Chọn tháng</option>
+                    <option value="1">Tháng 1</option>
+                    <option value="2">Tháng 2</option>
+                    <option value="3">Tháng 3</option>
+                    <option value="4">Tháng 4</option>
+                    <option value="5">Tháng 5</option>
+                    <option value="6">Tháng 6</option>
+                    <option value="7">Tháng 7</option>
+                    <option value="8">Tháng 8</option>
+                    <option value="9">Tháng 9</option>
+                </select>
+                Năm Sinh:
+                <select style="border-radius: 3px">
+                    <option value="">Chọn năm</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                </select>
+            </div>
+            <button type="button" class="box8">Tạo Tài Khoản</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
