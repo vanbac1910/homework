@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../BTVN/normalize.css">
 
 
     <style type="text/css">
          .wrap {
-             width: 500px;
+             width: 1000px;
              height: 1000px;
              margin: 0 auto;
-             background: #acb4fb;
+
 
         }
-        .wrap .header {
+         .header {
             height: 100px;
             line-height: 100px;
             font-size: 14px;
@@ -24,13 +24,13 @@
         }
         .wrap .content {
             overflow: hidden;
-            height: 700px;
+            height: 1000px;
             border: 1px solid red;
 
         }
         .wrap .content .main-content {
             float: right;
-            width: 390px;
+            width: 700px;
             height: 700px;
             border: 1px solid red;
             background: orange;
@@ -38,7 +38,7 @@
         }
         .content .sidebar {
             float: left;
-            width: 100px;
+            width: 200px;
             height: 700px;
             border: 1px solid red;
             background: coral;
@@ -50,12 +50,43 @@
             background: cyan;
             text-align: center;
         }
+        .menu {
+            background: #624aff;
+        }
+        .menu ul {
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu ul li {
+            float: left;
+
+            padding: 5px;
+
+        }
+        .menu ul li a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
     </style>
 <body>
+
      <div class="wrap">
          <div class="header">
              Header
          </div>
+         <div class="menu">
+             <ul>
+                 <li><a href="#"> THời sự</a></li>
+                 <li><a href="#"> THời tiết</a></li>
+                 <li><a href="#"> Thể thao</a></li>
+                 <li><a href="#"> Đời sống</a></li>
+                 <li><a href="#">Công nghệ</a></li>
+             </ul>
+         </div>
+
          <div class="content">
              <div class="sidebar">
                  sidebar
@@ -67,6 +98,7 @@
          <div class="footer">
              footer
          </div>
+     </div>
      </div>
 </body>
 </html>
