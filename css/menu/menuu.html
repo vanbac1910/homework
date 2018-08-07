@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <style type="text/css">
+        .content {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .content .menu {
+
+        }
+        .content .menu ul {
+        overflow: hidden;
+         list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .content .menu ul li {
+            float: left;
+            background: #eec2ac;
+        }
+        .content .menu ul li a {
+            text-decoration: none;
+            padding: 15px;
+            display: inline-block;
+            border-right: 1px solid #FFFFFF ;
+
+        }
+        .content .menu > ul > li:hover ul.sub-menu {
+            display: block;
+        }
+        ul.sub-menu {
+            display: none;
+            width: 100%;
+        }
+        ul.sub-menu li {
+            float: none !important;
+        }
+        .content .menu ul.sub-menu li a {
+            border-right:none ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <li class="parent homepage current"></li>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#"> THời sự</a>
+                    <ul class="sub-menu">
+                        <li><a href="#"> Thời sự 1</a> </li>
+                        <li><a href="#"> Thời sự 2</a> </li>
+                        <li><a href="#"> Thời sự 3</a> </li>
+
+                    </ul>
+
+                </li>
+
+            <li><a href="#"> CHính trị </a>
+            <ul class="sub-menu">
+                <li><a href="#"> Chính trị 1</a></li>
+                <li><a href="#"> Chính trị 2</a></li>
+                <li><a href="#"> Chính trị 3</a></li>
+                <li><a href="#"> Chính trị 4</a></li>
+
+            </ul>
+            </li>
+            <li><a href="#"> thể thao </a>
+            <ul class="sub-menu">
+                <li><a href="#"> Bóng đá</a></li>
+                <li><a href="#"> Bóng chuyền</a></li>
+                <li><a href="#"> Bóng rổ</a></li>
+                <li><a href="#"> Bóng cười</a></li>
+
+            </ul>
+            </li>
+            <li><a href="#"> Văn Hóa</a>
+            <ul class="sub-menu">
+                <li><a href="#">Ẩm thực</a> </li>
+                <li><a href="#">Lễ hội</a> </li>
+                <li><a href="#">Du Lịch</a> </li>
+                <li><a href="#">Con người</a> </li>
+
+            </ul>
+            </li>
+                <li><a href="#"> Du lịch</a>
+                <ul class="sub-menu">
+                    <li><a href="#"> Nhật Bản</a> </li>
+                    <li><a href="#"> Hàn Quốc</a> </li>
+                    <li><a href="#"> Cảnh đẹp</a> </li>
+                    <li><a href="#"> Du lịch giá rẻ</a> </li>
+
+                </ul>
+                </li>
+                <li><a href="#">Sức khỏe</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Thức ăn</a> </li>
+                    <li><a href="#">làm gì sống tốt</a> </li>
+                    <li><a href="#">Hướng dẫn tập thể dục</a> </li>
+                    <li><a href="#">Thực phẩm sạch</a> </li>
+
+                </ul>
+                </li>
+                <li><a href="#">Giới tính</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Gái</a> </li>
+                    <li><a href="#">Trai</a> </li>
+                    <li><a href="#">Đồng tính</a> </li>
+
+
+                </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
